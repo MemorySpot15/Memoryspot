@@ -19,3 +19,8 @@ var TrandingSlider = new Swiper('.tranding-slider', {
     prevEl: '.swiper-button-prev',
   }
 });
+
+$('.mobile-menu').click(function(){
+
+  $('.menu').toggleClass('active');
+});

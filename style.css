@@ -130,7 +130,21 @@
     left: 58% !important;
     transform: translateX(-58%) !important;
 }
+.mobile-menu{display: none;}
+.clear{clear: both;}
+.logo{float: left; font-size: 24px; line-height: 36px;}
+.menu{float: right;}
+@media (max-width:768px) {
+    .navbar{position: relative;}
+.menu { display: none; position: absolute;     width: 300px;
+    background: #382a40; top: 100%; right: 0; padding: 15px;}
+    .menu li{border-bottom: solid 1px #ffffff;}
+    .menu li:last-child{border-bottom: none;}
+.menu.active { display: block;}
 
+.mobile-menu{display: block; float: right; margin-top: 15px;}
+
+}
 @media (max-width:990px) {
     .tranding-slider-control .swiper-button-next {
         left: 70% !important;
