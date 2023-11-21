@@ -293,11 +293,21 @@
     .box-r2 .wsh-r2 {
         font-size: 25px;
         color: #ec994b;
-        font-weight: 800;
+        font-weight: bolder;
     }
     .box-r2 p {
-        font-size: 16px;
-        font-family: Arial, Helvetica, sans-serif;           
+        font-size: 16px;   
+        font-family: Arial, Helvetica, sans-serif;        
+    }
+    .cont-wsh{
+        display: none;
+    }
+    .photo{
+        display: block;
+        
+    }
+    .photo img{
+        width: 400px;
     }
     .cont-wsh{
         display: none;
