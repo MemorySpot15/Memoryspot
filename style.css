@@ -205,3 +205,23 @@
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
     background: var(--primary);
 }
+
+.video-container {
+     position: relative;
+     width: 100%;
+     align-items:center;
+     justify-content: center;
+     overflow: hidden;
+     padding-top: 56.25%;
+     margin-top:10px;
+     /* 16:9 aspect ratio (h / w * 100) */
+ }
+
+ .video-container video {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+    
+     height: 70%;
+ }
