@@ -263,6 +263,7 @@
 }
 .box-r2 p{
     font-size: 20px; 
+    display: block;
 }
 .box-r2 .wsh-r2{
     font-size: 40px;
@@ -272,6 +273,10 @@
 }
 .wsh-r2-emj{
     font-size: 25px;
+}
+.photo {
+    display: none;
+
 }
 @media screen and (max-width: 768px) {
     .box-r2 {
@@ -286,11 +291,20 @@
         height: 70%;
     }
     .box-r2 .wsh-r2 {
-        font-size: 40px;
+        font-size: 25px;
         color: #ec994b;
     }
     .box-r2 p {
-        font-size: 18px;
-                
+        font-size: 16px;           
+    }
+    .cont-wsh{
+        display: none;
+    }
+    .photo{
+        display: block;
+        
+    }
+    .photo img{
+        width: 400px;
     }
 }
