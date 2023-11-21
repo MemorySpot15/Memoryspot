@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-
+@font-face{
+    font-family: myFont;
+    src:url(./allura/Allura-Regular.ttf);
+}
 *,
 *::before,
 *::after {
@@ -297,13 +300,16 @@
     }
     .box-r2 p {
         font-size: 16px;   
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        
     }
     .cont-wsh{
         display: none;
     }
     .photo{
         display: block;
+        font-family: myFont;
+        font-size: 25px;
+       
         
     }
     .photo img{
