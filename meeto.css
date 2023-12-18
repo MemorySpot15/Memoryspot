@@ -276,9 +276,9 @@ a:hover {
 }
 /* video style */
 .video-container{
-    padding: 10px;
     
-
+    width: auto;
+    height: 500px;
 }
 .video-container h2{
    
@@ -286,7 +286,9 @@ a:hover {
     color: #3498db;
 }
 .video-container video{
-    width:50%
+    width:100%;
+    margin-top: 80px;
+    height:100%;
 }
 @media (max-width: 768px){
     .video-container video{
